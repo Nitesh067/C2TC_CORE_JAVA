@@ -9,9 +9,14 @@ class son extends Father{
 		System.out.println("Son class...");
 	}
 }
-class daughter extends son{
+class daughter extends Father{
 	void pitch() {
 		System.out.println("Daughter class...");
+	}
+
+	void height() {
+		
+		
 	}
 }
 public class Hierarichal {
@@ -21,6 +26,7 @@ public class Hierarichal {
 		dt.color();
 		dt.height();
 		dt.pitch();
+		
 		
 		
 
